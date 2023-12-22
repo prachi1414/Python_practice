@@ -1,0 +1,2 @@
+exam_st_date = (19,1,2025)
+print("exam is on the date: %i/%i/%i"%exam_st_date)
