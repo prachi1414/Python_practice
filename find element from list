@@ -1,3 +1,8 @@
-list = [1,2,3,4]
-if 3 in list:
-    print("Yes")
+def list(data, n):
+   for value in data:
+        if value == n:
+            return True
+   return False
+print(list([1, 2, 3, 4], 4))
+print(list([1, 2, 3, 4], -1))
+
